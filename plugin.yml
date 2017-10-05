@@ -1,0 +1,30 @@
+---
+name: KitsDoDo
+main: KaitoDoDo\KIT\KIT
+version: xP
+api:
+- 3.0.0-ALPHA7
+- 3.0.0-ALPHA8
+load: STARTUP
+author: PocketMine Team
+description: Helps develop and distribute PocketMine-MP plugins
+website: https://github.com/PocketMine/DevTools
+commands:
+    addrank:
+        usage: /addranks
+        description: rank-command
+    rank:
+        usage: /rank
+        description: rank-command
+    ranks:
+        usage: /rank <rank> <player>
+        description: rank-command
+    setkit:    
+        usage: /setkit <player>
+        description: give-kit
+    kit:
+        usage: /kit <kit>
+        description: Choose-kit
+    sorteo:
+        usage: /sorteo
+---
